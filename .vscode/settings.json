@@ -1,0 +1,62 @@
+{
+  // editor
+  "editor.wordWrap": "on",
+  "editor.fontSize": 16,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 30,
+  "editor.tabSize": 2,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.autoClosingBrackets": "always",
+  "editor.minimap.enabled": false,
+  "editor.formatOnSave": false,
+  "files.autoSave": "afterDelay",
+
+  // explorer
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+
+  // workbench
+  "workbench.editor.enablePreview": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Dracula",
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.layoutControl.enabled": false,
+
+  // prettier
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.enable": true,
+  "prettier.singleQuote": false,
+  "prettier.tabWidth": 2,
+  "prettier.semi": false,
+
+  // terminal
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.profiles.windows": {
+    "Git Bash": {
+      "source": "Git Bash"
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  
+  // Aplica um sinal visual na esquerda da linha selecionada
+  "editor.renderLineHighlight": "gutter",
+  
+  // auto rename tag
+  "auto-rename-tag.activationOnLanguage": [
+    "html",
+    "xml",
+    "php",
+    "javascript"
+  ],
+
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+}

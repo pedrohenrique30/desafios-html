@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "dracula-theme.theme-dracula",
+    "EditorConfig.EditorConfig",
+    "esbenp.prettier-vscode",
+    "formulahendry.auto-rename-tag",
+    "miguelsolorio.fluent-icons",
+    "MS-CEINTL.vscode-language-pack-pt-BR",
+    "naumovs.color-highlight",
+    "PKief.material-icon-theme",
+    "ritwickdey.LiveServer"
+  ]
+}
