@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Pedro Henrique">
+    <meta name="description" content="Formul&aacute;rio de contato">
+    <title>Contato</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Entre em contato</legend>
+
+        <label for="assunto">
+          <strong>Assunto:</strong>
+        </label>
+        <select name="assunto" id="assunto">
+          <option value="" selected disabled>Selecione</option>
+          <option value="suporte">Suporte</option>
+          <option value="sugest&atilde;o">Sugest&atilde;o</option>
+          <option value="reclamaç&atilde;o">Reclamaç&atilde;o</option>
+        </select>
+
+        <br> <br>
+
+        <label for="input-nome">
+          <strong>Nome Completo:</strong>
+        </label> <br>
+        <input type="text" name="nome" id="input-nome" placeholder="Seu nome">
+
+        <br> <br>
+
+        <label for="input-email">
+          <strong>E-mail</strong>
+        </label> <br>
+        <input type="email" name="email" id="input-email" placeholder="email@seudominio.com">
+
+        <br> <br>
+
+        <label for="msg">
+          <strong>Mensagem:</strong>
+        </label> <br>
+        <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+
+        <br> <br>
+
+        <input type="checkbox" name="novidades" id="novidades">
+        <label for="novidades">Aceito receber novidades por e-mail</label>
+
+        <br> <br>
+
+        <button type="submit">Enviar</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
